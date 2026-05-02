@@ -5,11 +5,15 @@
 </a>
 
 <p>
-  <a href="https://www.linkedin.com/in/nullai"><strong>LinkedIn</strong></a>
-  ·
-  <a href="https://www.facebook.com/p/Gh0stLa6zexe-61578807170780/"><strong>Facebook</strong></a>
-  ·
-  <a href="https://github.com/Gh0st-La6z-exe"><strong>GitHub</strong></a>
+  <a href="https://www.linkedin.com/in/nullai">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.facebook.com/p/Gh0stLa6zexe-61578807170780/">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://github.com/Gh0st-La6z-exe">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </p>
 
 </div>
