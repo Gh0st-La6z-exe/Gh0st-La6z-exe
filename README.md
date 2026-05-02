@@ -18,6 +18,58 @@
 
 AI software engineering and cybersecurity practitioner focused on production detection systems, low-latency telemetry, and operator-ready control planes. Most active work is private; I collaborate with teams that value rigorous engineering, measurable security outcomes, and clean system design.
 
+## Stack at a glance (NuLLAI + Abaddon)
+
+Stack map below is sourced strictly from documented NuLLAI + Abaddon components.
+
+<div align="center">
+
+**Row 1/4 · Languages, API, UI**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Row 2/4 · Data, Infra, Observability**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+**Row 3/4 · Backend and ML libraries**
+
+![Uvicorn](https://img.shields.io/badge/Uvicorn-0B7285?style=flat-square)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=gunicorn&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-6B4F1D?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-016093?style=flat-square)
+
+**Row 4/4 · Security, Controls, AI Security**
+
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+![NATS](https://img.shields.io/badge/NATS-27AAEE?style=flat-square)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![mTLS](https://img.shields.io/badge/mTLS-3949AB?style=flat-square)
+![HMAC--SHA256](https://img.shields.io/badge/HMAC--SHA256-455A64?style=flat-square)
+![OWASP LLM Top 10](https://img.shields.io/badge/OWASP-LLM%20Top%2010-111827?style=flat-square)
+![MITRE ATLAS](https://img.shields.io/badge/MITRE-ATLAS-5B21B6?style=flat-square)
+![Hugging Face Recon](https://img.shields.io/badge/Hugging%20Face-Recon-FF9D00?style=flat-square&logo=huggingface&logoColor=black)
+
+</div>
+
 ## Flagship Platform: NuLLAI XDR
 
 NuLLAI is a **private** autonomous XDR platform that moves security operations from detect-and-alert into a guarded detect-reason-respond pipeline.
@@ -100,37 +152,33 @@ I treat documentation as a first-class engineering artifact across private progr
 - **ML and explainability:** PyTorch and classical ML systems with SHAP/LIME support for transparent decisioning.
 - **Operational UX:** Next.js and React control planes for real-time visibility, triage, and analyst workflows.
 
-## Core Technologies
+## Technical Stack (Project-Split, Used-Only)
 
-<div align="center">
+### NuLLAI Stack
 
-**Languages & application layer**
+- **Endpoint agent (`null-agent`, Go):** Go 1.22/1.24 track, cilium/ebpf, nats.go, x/sys, x/crypto, static no-CGO binary model, WAL survivability.
+- **Detection acceleration (`null-detection-core`, Rust):** Rust workspace crates (`beaconing`, `ja3`, `ja4`, `dns_tunnel`, `ioc_matcher`, `sigma`, `behavior_baseline`, `threat_hunt`, `yara`), PyO3 bridge, criterion benchmarks, maturin builds.
+- **Control plane (`null-backend`, Python/FastAPI):** FastAPI, Uvicorn, Gunicorn, SQLAlchemy, Pydantic, Alembic, JWT stack (python-jose/PyJWT), cryptography.
+- **ML and scoring pipeline:** PyTorch, scikit-learn, xgboost, SHAP, LIME, imbalanced-learn, NumPy, joblib.
+- **SOC dashboard (`null-soc-dashboard`):** Next.js, React, TypeScript, Tailwind, ESLint, PostCSS, SWR, recharts, lucide-react.
+- **Ops and observability:** PostgreSQL, Redis, Prometheus, OpenTelemetry, Docker/Compose, NATS, Locust.
+- **Security controls:** mTLS, HMAC-SHA256, eBPF LSM direction, tenant isolation, mode/kill-switch gating, audit timelines.
 
-<img src="https://skillicons.dev/icons?i=python,go,rust,ts,react,nextjs,fastapi,tailwind,nodejs,bash,vite&theme=dark&perline=11" alt="Languages and application stack" />
+### Abaddon Stack
 
-**Data, platform, observability, quality**
+- **Core platform and CLI:** Python package/CLI architecture with scoped command workflows (`atomics`, `scan-artifact`, `scan-hub`, `probe-serving`, `attack`, `orchestrate`).
+- **Static and supply-chain auditing:** pickle abstract-VM approach, safetensors, GGUF, ONNX graph analysis, Keras serialized code pattern checks, joblib/NumPy loading-surface checks.
+- **Recon and environment analysis:** Hugging Face repository reconnaissance, OSV/CVE-oriented dependency checks, serving-surface probes (TorchServe, Triton, vLLM, TGI, MLflow-style patterns).
+- **Adversarial campaign system:** atomics library, technique execution/capture, adaptive orchestration loops (bandit-style selection, optimization cycles, memory/state).
+- **Evaluation and reliability science:** calibration-aware scoring, agreement/confidence quality controls, statistical primitives, reproducible reporting and benchmark discipline.
+- **Safety model:** scope-file allowlisting, fail-closed validation, constrained serialization paths, no arbitrary eval/exec.
 
-<img src="https://skillicons.dev/icons?i=postgres,redis,docker,kubernetes,nginx,prometheus,grafana,linux,git,githubactions,pytorch,eslint&theme=dark&perline=12" alt="Platform, observability, and delivery" />
+### Shared Overlap (NuLLAI + Abaddon)
 
-</div>
-
-## Technical Scope
-
-- **Languages:** Python 3.12, Go 1.24, Rust (Edition 2021 workspace), TypeScript.
-- **Backend/API:** FastAPI, Uvicorn, Gunicorn, SQLAlchemy, Pydantic, Alembic, python-jose, PyJWT, cryptography.
-- **ML/Data:** PyTorch, scikit-learn, xgboost, SHAP, LIME, imbalanced-learn, NumPy, joblib.
-- **Detection workspace:** `beaconing`, `ja3`, `ja4`, `dns_tunnel`, `ioc_matcher`, `sigma`, `behavior_baseline`, `threat_hunt`, `yara`; plus PyO3, criterion, maturin.
-- **Infra/Operations:** PostgreSQL, Redis, Docker Compose, Prometheus, OpenTelemetry, NATS, Locust.
-- **Networking/Security:** JWT, mTLS, HMAC-SHA256, eBPF LSM, async HTTP pipelines (`httpx`, `aiohttp`, `requests`).
-
-## Advanced Tooling Matrix
-
-- **Model and artifact auditing:** pickle abstract VM analysis, safetensors inspection, GGUF analysis, ONNX graph checks (Tarjan/VF2 style patterns), Keras serialization/code-pattern checks, joblib/NumPy loading-surface analysis.
-- **AI supply-chain and package risk:** Hugging Face repo recon, OSV/CVE-oriented dependency auditing, ML-environment package audit flows.
-- **Serving-surface reconnaissance:** TorchServe, Triton, vLLM, TGI, and MLflow-adjacent deployment probes.
-- **Agent and endpoint runtime tooling:** eBPF LSM direction (`bprm_check_security`), secure transport controls, WAL-backed survivability patterns, static no-CGO distribution strategy.
-- **Detection and hunt engines:** JA3/JA4, beaconing, DNS tunnel/DGA, IOC matching, Sigma-style detection, behavior baselining, threat-hunt modules.
-- **Evaluation and reliability science:** calibration-oriented scoring, confidence/agreement checks, math/stat reliability primitives, benchmark-budget enforcement, reproducibility-first test posture.
+- **Languages and runtimes:** Python, Go, Rust, TypeScript.
+- **Security engineering model:** constrained autonomy, explicit policy gates, fail-closed defaults, auditability-first design.
+- **Data/infra patterns:** containerized services, observable pipelines, reproducible CI-focused engineering posture.
+- **Documentation discipline:** architecture specs, runbooks, acceptance criteria, and evidence-backed quality gates.
 
 ## Adversarial Methods Coverage
 
