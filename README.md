@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Gh0st-La6z">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1500&color=39FF14&background=00000000&vCenter=true&width=800&height=50&lines=root%40github%3A~%2Fmainframe%23+chmod+%2Bx+Gh0st.La6z.exe;root%40github%3A~%2Fmainframe%23+.%2FGh0st.La6z.exe+--verbose+--stealth;%5B!%5D+INITIATING+SYSTEM+OVERRIDE...;%5B%2B%5D+Bypassing+local+auth_keys...;%5B%2B%5D+Payload+executed.+Access+granted." alt="Terminal Execution Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1600&color=39FF14&background=00000000&vCenter=true&width=860&height=50&lines=root%40github%3A~%2Fmainframe%23+init+Gh0st.La6z.exe+--profile;root%40github%3A~%2Fmainframe%23+launch+nullai+xdr+stack;%5B%2B%5D+Building+autonomous+defense+systems...;%5B%2B%5D+Hardening+AI%2FML+surfaces+at+scale.;root%40github%3A~%2Fmainframe%23+status%3A+operational" alt="Terminal Execution Animation" />
 </a>
 
 <p>
@@ -10,9 +10,6 @@
   </a>
   <a href="https://www.facebook.com/p/Gh0stLa6zexe-61578807170780/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-  <a href="https://github.com/Gh0st-La6z-exe">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
@@ -221,12 +218,10 @@ I treat documentation as a first-class engineering artifact across private progr
 
 ## Adversarial Methods Coverage
 
-- **Jailbreak and prompt-injection families:** PAIR, TAP, Crescendo, BoN, MSJ, AutoDAN, GCG, ArtPrompt, ReNeLLM, DeepInception, Skeleton Key, PAP, Cipher, indirect injection paths.
-- **Adversarial examples:** PGD, C&W, AutoAttack, Square Attack, HopSkipJump.
-- **Poisoning and corruption scenarios:** BadNets-style and PoisonedRAG-style workflows.
-- **Extraction and leakage testing:** Knockoff Nets style extraction, LiRA-style membership inference, training-data extraction probes.
-- **Agent and RAG attack surfaces:** tool-use manipulation, memory/context poisoning, retrieval abuse, and orchestration-path exploitation attempts.
-- **Coverage mapping:** OWASP LLM Top 10 and MITRE ATLAS-aligned tracking in campaign/reporting workflows.
+- **Prompt and jailbreak techniques:** PAIR, TAP, Crescendo, BoN, MSJ, AutoDAN, GCG, ArtPrompt, ReNeLLM, DeepInception, Skeleton Key, PAP, Cipher, and indirect injection paths.
+- **Adversarial ML and data attacks:** PGD, C&W, AutoAttack, Square Attack, HopSkipJump, plus poisoning scenarios (BadNets-style / PoisonedRAG-style).
+- **Extraction and privacy probes:** Knockoff Nets-style extraction, LiRA-style membership inference, and training-data extraction checks.
+- **Agent/RAG surfaces and mapping:** tool-use manipulation, memory/context poisoning, retrieval abuse, with OWASP LLM Top 10 and MITRE ATLAS-aligned coverage tracking.
 
 ## Current Build Themes
 
@@ -237,7 +232,7 @@ I treat documentation as a first-class engineering artifact across private progr
 
 ## Writing
 
-Long-form writing and newsletter updates: [**LinkedIn / nullai**](https://www.linkedin.com/in/nullai)
+Long-form updates and company notes: [**LinkedIn / nullai**](https://www.linkedin.com/in/nullai) and [**Facebook / Gh0stLa6zexe**](https://www.facebook.com/p/Gh0stLa6zexe-61578807170780/)
 
 <div align="center">
 
