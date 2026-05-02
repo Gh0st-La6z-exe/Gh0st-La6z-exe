@@ -22,7 +22,7 @@
 
 ## Professional Summary
 
-AI software engineering and cybersecurity practitioner focused on production detection systems, low-latency telemetry, and operator-ready control planes. Most active work is private; I collaborate with teams that value rigorous engineering, measurable security outcomes, and clean system design.
+AI software engineering and cybersecurity student focused on production detection systems, low-latency telemetry, and operator-ready control planes. Most active work is private; I collaborate with teams that value rigorous engineering, measurable security outcomes, and clean system design.
 
 ## Stack at a glance (NuLLAI + Abaddon)
 
