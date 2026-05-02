@@ -123,6 +123,24 @@ I treat documentation as a first-class engineering artifact across private progr
 - **Infra/Operations:** PostgreSQL, Redis, Docker Compose, Prometheus, OpenTelemetry, NATS, Locust.
 - **Networking/Security:** JWT, mTLS, HMAC-SHA256, eBPF LSM, async HTTP pipelines (`httpx`, `aiohttp`, `requests`).
 
+## Advanced Tooling Matrix
+
+- **Model and artifact auditing:** pickle abstract VM analysis, safetensors inspection, GGUF analysis, ONNX graph checks (Tarjan/VF2 style patterns), Keras serialization/code-pattern checks, joblib/NumPy loading-surface analysis.
+- **AI supply-chain and package risk:** Hugging Face repo recon, OSV/CVE-oriented dependency auditing, ML-environment package audit flows.
+- **Serving-surface reconnaissance:** TorchServe, Triton, vLLM, TGI, and MLflow-adjacent deployment probes.
+- **Agent and endpoint runtime tooling:** eBPF LSM direction (`bprm_check_security`), secure transport controls, WAL-backed survivability patterns, static no-CGO distribution strategy.
+- **Detection and hunt engines:** JA3/JA4, beaconing, DNS tunnel/DGA, IOC matching, Sigma-style detection, behavior baselining, threat-hunt modules.
+- **Evaluation and reliability science:** calibration-oriented scoring, confidence/agreement checks, math/stat reliability primitives, benchmark-budget enforcement, reproducibility-first test posture.
+
+## Adversarial Methods Coverage
+
+- **Jailbreak and prompt-injection families:** PAIR, TAP, Crescendo, BoN, MSJ, AutoDAN, GCG, ArtPrompt, ReNeLLM, DeepInception, Skeleton Key, PAP, Cipher, indirect injection paths.
+- **Adversarial examples:** PGD, C&W, AutoAttack, Square Attack, HopSkipJump.
+- **Poisoning and corruption scenarios:** BadNets-style and PoisonedRAG-style workflows.
+- **Extraction and leakage testing:** Knockoff Nets style extraction, LiRA-style membership inference, training-data extraction probes.
+- **Agent and RAG attack surfaces:** tool-use manipulation, memory/context poisoning, retrieval abuse, and orchestration-path exploitation attempts.
+- **Coverage mapping:** OWASP LLM Top 10 and MITRE ATLAS-aligned tracking in campaign/reporting workflows.
+
 ## Current Build Themes
 
 - High-throughput detection and analytics pipeline architecture.
