@@ -234,3 +234,9 @@ I treat documentation as a first-class engineering artifact across private progr
 ## Writing
 
 Long-form writing and newsletter updates: [**LinkedIn / nullai**](https://www.linkedin.com/in/nullai)
+
+<div align="center">
+
+![](https://komarev.com/ghpvc/?username=Gh0st-La6z-exe&label=Profile%20Views&color=0e75b6&style=flat)
+
+</div>
