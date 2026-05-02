@@ -7,9 +7,9 @@
 <p>
   <a href="https://www.linkedin.com/in/nullai"><strong>LinkedIn</strong></a>
   ·
-  <a href="https://github.com/Gh0st-La6z-exe"><strong>GitHub</strong></a>
+  <a href="https://www.facebook.com/p/Gh0stLa6zexe-61578807170780/"><strong>Facebook</strong></a>
   ·
-  <a href="https://www.linkedin.com/in/nullai"><strong>Writing</strong></a>
+  <a href="https://github.com/Gh0st-La6z-exe"><strong>GitHub</strong></a>
 </p>
 
 </div>
