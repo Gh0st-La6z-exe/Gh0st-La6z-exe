@@ -26,7 +26,7 @@ Stack map below is sourced strictly from documented NuLLAI + Abaddon components.
 
 <div align="center">
 
-**Row 1/7**
+**Core Languages + App Layer**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
@@ -37,7 +37,7 @@ Stack map below is sourced strictly from documented NuLLAI + Abaddon components.
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-**Row 2/7**
+**Data + Infra + Observability**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
@@ -48,7 +48,7 @@ Stack map below is sourced strictly from documented NuLLAI + Abaddon components.
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**Row 3/7**
+**Backend Runtime + API Security**
 
 ![Uvicorn](https://img.shields.io/badge/Uvicorn-0B7285?style=flat-square)
 ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=gunicorn&logoColor=white)
@@ -59,7 +59,7 @@ Stack map below is sourced strictly from documented NuLLAI + Abaddon components.
 ![PyJWT](https://img.shields.io/badge/PyJWT-000000?style=flat-square)
 ![cryptography](https://img.shields.io/badge/cryptography-412991?style=flat-square)
 
-**Row 4/7**
+**ML + Explainability**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
@@ -70,7 +70,7 @@ Stack map below is sourced strictly from documented NuLLAI + Abaddon components.
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![joblib](https://img.shields.io/badge/joblib-2563EB?style=flat-square)
 
-**Row 5/7**
+**Rust Detection Workspace + Build Tooling**
 
 ![beaconing](https://img.shields.io/badge/beaconing-0f172a?style=flat-square)
 ![ja3](https://img.shields.io/badge/ja3-0f172a?style=flat-square)
@@ -81,7 +81,7 @@ Stack map below is sourced strictly from documented NuLLAI + Abaddon components.
 ![PyO3](https://img.shields.io/badge/PyO3-334155?style=flat-square)
 ![maturin](https://img.shields.io/badge/maturin-334155?style=flat-square)
 
-**Row 6/7**
+**Adversarial AI Red Teaming (Abaddon)**
 
 ![safetensors](https://img.shields.io/badge/safetensors-111827?style=flat-square)
 ![GGUF](https://img.shields.io/badge/GGUF-111827?style=flat-square)
@@ -92,7 +92,7 @@ Stack map below is sourced strictly from documented NuLLAI + Abaddon components.
 ![Triton](https://img.shields.io/badge/Triton-111827?style=flat-square)
 ![vLLM](https://img.shields.io/badge/vLLM-111827?style=flat-square)
 
-**Row 7/7**
+**Governance, Controls, and Threat Taxonomy**
 
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
 ![NATS](https://img.shields.io/badge/NATS-27AAEE?style=flat-square)
