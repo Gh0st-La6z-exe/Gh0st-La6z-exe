@@ -39,11 +39,9 @@ Currently pursuing a Bachelor of Science in Artificial Intelligence Engineering 
 ### [NuLLAI XDR]
 A private autonomous XDR platform moving security operations from detect-and-alert into a guarded detect-reason-respond pipeline. Combines eBPF-driven telemetry with Rust-based detection engines and AI-driven risk modeling.
 
-### [Abaddon]
-A private adversarial AI/ML red-team platform for scoped, authorized testing of ML/LLM systems. Built to quantify exploitability via static artifact auditing and active adversarial workflows (jailbreaks, poisoning, extraction).
 
 ### [null-sigma]
-A high-performance Sigma rule matching engine and detection pipeline written in pure Rust.
+A high-performance Sigma rule matching engine and detection pipeline written in pure Rust. 
 
 ## 🎯 Current Focus Areas
 
